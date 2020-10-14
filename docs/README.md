@@ -57,7 +57,7 @@ $$y = f(x_0) + f′(x_0) (x−x_0)$$
 
 Below is the graph showing the tangent line 
 
-<img src="/Users/tj/projects/SolveAnyPoly.py/graph-1.png" alt="graph-1" style="zoom:25%;" />
+<img src="/images/graph-1.png" alt="graph-1" style="zoom:25%;" />
 
 We can see that the tangent line at $x_0$ is much closer to the solution. Let's call this new point as $x_1$ (which is our new approximation)
 
@@ -116,33 +116,33 @@ Let us assume, our Newton's method identifies 3 as one of the roots of this poly
 
 The general division of the polynomial is as follows:
 
-<img src="/Users/tj/projects/SolveAnyPoly.py/images/synth-div.png" alt="synth-div" style="zoom:33%;" />
+<img src="/images/synth-div.png" alt="synth-div" style="zoom:33%;" />
 
 Now, let's see how synthetic division works for the same example:
 
 First, we have to take all coefficients of the polynomial and write it inside a "L" shaped division symbol:
 
-<img src="/Users/tj/projects/SolveAnyPoly.py/images/2.png" alt="2" style="zoom: 25%;" />
+<img src="/images/2.png" alt="2" style="zoom: 25%;" />
 
 Put the factor $3$ at the left side
 
-<img src="/Users/tj/projects/SolveAnyPoly.py/images/3.png" alt="3" style="zoom: 25%;" />
+<img src="/images/3.png" alt="3" style="zoom: 25%;" />
 
 Take the first coefficient (leading coefficient) out unchanged.
 
-<img src="/Users/tj/projects/SolveAnyPoly.py/images/4.png" alt="4" style="zoom: 25%;" />
+<img src="/images/4.png" alt="4" style="zoom: 25%;" />
 
 Now multiply this carry down value with the factor 3 and put the result in the next column (inside the division symbol). Now add the column and put the sum at the bottom of the division symbol.
 
-<img src="/Users/tj/projects/SolveAnyPoly.py/images/5-rev.png" alt="5-rev" style="zoom:25%;" />
+<img src="/images/5-rev.png" alt="5-rev" style="zoom:25%;" />
 
 Now multiply the previous carry down value with the factor to get the next value.
 
-<img src="/Users/tj/projects/SolveAnyPoly.py/images/6-rev.png" alt="6-rev" style="zoom:25%;" />
+<img src="/images/6-rev.png" alt="6-rev" style="zoom:25%;" />
 
 Repeat this until we reach the last number.
 
-<img src="/Users/tj/projects/SolveAnyPoly.py/images/8-rev.png" alt="8-rev" style="zoom:25%;" />
+<img src="/images/8-rev.png" alt="8-rev" style="zoom:25%;" />
 
 If the value of the last column is 0, then x-3 is a factor of this polynomial. i.e., 3 is in fact the root of this polynomial.
 

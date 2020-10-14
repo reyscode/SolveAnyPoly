@@ -104,3 +104,4 @@ if __name__ == '__main__':
     coeff = [ int(item) for item in coeff_str.replace(' ', '').split(',') ]
     roots = solve_any_poly(coeff)
     plot_fn(coeff, roots)
+    print(roots)

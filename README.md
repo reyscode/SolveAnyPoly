@@ -16,8 +16,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-```console
+```bash
 python3 solve_any_poly.py
+```
+
+```console
 Enter Coefficients of Equation (comma separated):1,-9,26,-24
 [2, 3, 4]
 ```
